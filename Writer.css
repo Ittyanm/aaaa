@@ -1,0 +1,90 @@
+﻿/* 文字コードを"utf-8"にして保存 */
+@charset "utf-8";
+/* すべての要素に適用する */
+*{
+	background-color: #0F0400; /* 背景色を黒色に設定 */
+	color: #0032FA; /* 文字を青色に設定 */
+	margin: 0px; /* マージン（領域）の幅 */
+	padding: 0px; /* パディング（余白）の幅 */
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'MS　Pゴシック',sans-serif;
+}
+/* bodyタグの説明 */
+body{
+	width: 100%; /* 幅 */
+	height: 100%; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+}
+/* navタグの説明 */
+nav{
+	width: 100%; /* 幅 */
+	height: 100%; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+}
+/* navのaタグの説明 */
+nav a{
+	text-decoration: none;/* リンクの下線を取る */
+	border: none;
+	background: transparent;
+	border-radius: 0px;/* 枠線を角丸にする */
+	display: block;
+	padding: 10px;
+	transition: 0.5s;
+}
+/* navのh1タグの説明 */
+nav h1{
+	font-size: 34px; /* 縦のピクセル（34px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+	text-align: left; /* テキストの表示位置（左揃え） */
+	line-height: 39px; /* 行の高さ（39px） */
+}
+/* mainタグの説明 */
+main{
+	width: 100%; /* 幅 */
+	height: 800px; /* 高さ */
+	text-align: center ; /* テキストの表示位置（中央揃え） */
+	padding-top: 50px;
+}
+/* mainのh1タグの説明 */
+main h1{
+	display: block;
+	font-size: 55px; /* 縦のピクセル（55px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+	text-align: center; /* テキストの表示位置（中央揃え） */
+	line-height: 100px; /* 行の高さ（100px） */
+}
+/* mainのpタグの説明 */
+main p{
+	display: block;
+	font-size: 34px; /* 縦のピクセル（34px）の大きさ */
+	font-weight: normal; /* 文字の太さ（標準） */
+	text-align: center; /* テキストの表示位置（中央揃え） */
+	line-height: 100px; /* 行の高さ（100px） */
+}
+/* div id="comingsoon"タグの説明 */
+#comingsoon{
+	width: 100%; /* 幅 */
+	height: 400px; /* 高さ */
+	text-align: center ; /* テキストの表示位置（中央揃え） */
+}
+/* div id="comingsoon"のh1タグの説明 */
+#comingsoon h1{
+	display: block;
+	font-size: 144px; /* 縦のピクセル（144px）の大きさ */
+	font-style: italic;
+	font-weight: bold; /* 文字の太さ（太字） */
+}
+/* footerタグの説明 */
+footer{
+	width: 100%; /* 幅 */
+	height: 100%; /* の高さ */
+	margin: 0px;
+	padding: 0px;
+}
+/* footerのpタグの説明 */
+footer p{
+	font-size: 21px; /* 縦のピクセル（21px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+	text-align: center; /* テキストの表示位置（中央揃え） */
+}

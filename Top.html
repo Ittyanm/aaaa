@@ -1,0 +1,72 @@
+<!DOCTYPE html> <!-- 今からhtmlで書いていきます-->
+<html lang="ja"> <!-- 言語属性は日本語です-->
+	<head>
+		<meta charset="utf-8"> <!-- 文字コードはutf-8です -->
+		<meta name="description" content="今日行きたい”お店”を探せるサイトです。"> <!-- サイトの説明文.文字数は120字以内最初の40文字が勝負 -->
+		<meta name="keywords" content="お店検索,ショクメシ,はしご,呑み,渋谷"> <!-- 本文に書けなかったキーワードを入れると良いでしょう。５〜６個以内推奨 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- モバイルに最適化したサイトは、次のような記述を含んでいるのが典型的です -->
+		<link rel="shortcut icon" href="images/favicon_Life-is-Luck!_24px.png"> <!-- faviconの設定 -->
+		<link rel="stylesheet" href="Top.css">
+		<title> ショクメシ | 今日行きたい”お店”を探そう</title> <!-- タグ部分で表示されます -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Slidebars CSS -->
+		<link rel="stylesheet" href="sidr-package-1.2.1/stylesheets/jquery.sidr.dark.css" />
+		<!-- Slidebars jQuery -->
+		<script src="sidr-package-1.2.1/jquery.sidr.min.js"></script>
+		<!--bxSlider Javascript file-->
+		<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+		<!--bxSlider CSS file-->
+		<link rel="stylesheet" href="jquery.bxslider/jquery.bxslider.css">
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				auto: true,
+			});
+		});
+		</script>
+	</head>
+	<body class="mybg">
+		<!-- ▼モバイル時のメニュートグルボタン▼ -->
+		<div id="mobile">
+			<a id="sidr-menu-button" href="#sidr-nav"> ショクメシ </a>
+		</div>
+		<!-- ▲モバイル時のメニュートグルボタン▲ -->
+		<!-- ▼サイドメニュー▼ -->
+		<nav class="head-nav">
+			<ul>
+				<li><a id ="writer" href="Writer.html"> ショクフルリスト > </a></li>
+				<li><a id ="about" href="About.html"> 初めての方 > </a></li>
+				<li><a id ="recommend" href="Top.html"> みんなのお気に入りのお店 <br> Coming Soon ! > </a></li>
+				<li><a id ="plan" href="Top.html"> はしごプラン <br> Coming Soon ! > </a></li>
+			</ul>
+		</nav>
+		<!-- ▲サイドメニュー▲ -->
+		<!-- ▼画像スライダー▼ -->
+		<div id="">
+			<ul class="bxslider">
+			<li><img src="images/Slider_1.png" alt="Slider_1"></li>
+			<li><img src="images/Slider_2.png" alt="Slider_2"></li>
+			<li><img src="images/Slider_3.png" alt="Slider_3"></li>
+			<li><img src="images/Slider_4.png" alt="Slider_4"></li>
+			<li><img src="images/Slider_5.png" alt="Slider_5"></li>
+			<li><img src="images/Slider_6.png" alt="Slider_6"></li>
+			<li><img src="images/Slider_7.png" alt="Slider_7"></li>
+		</ul>
+		</div>
+		<!-- ▲画像スライダー▲ -->
+		<main>
+		</main>
+			<footer>
+				<p> photo : Kento Ichikawa <br> &copy; ショクメシ </p>
+			</footer>
+		</div>
+		<script type="text/javascript">
+		$('#sidr-menu-button').sidr({
+			name: 'sidr-nav',
+			source: '.head-nav',
+			speed : 500,
+			side : 'right'
+		});
+		</script>
+	</body>
+</html>

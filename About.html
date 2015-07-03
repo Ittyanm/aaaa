@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!-- 今からhtmlで書いていきます-->
+<html lang="ja"> <!-- 言語属性は日本語です-->
+	<head>
+		<meta charset="utf-8"> <!-- 文字コードはutf-8です -->
+		<meta name="description" content="今日行きたい”お店”を探せるサイトです。"> <!-- サイトの説明文.文字数は120字以内最初の40文字が勝負 -->
+		<meta name="keywords" content="お店検索,ショクメシ,はしご,呑み,渋谷"> <!-- 本文に書けなかったキーワードを入れると良いでしょう。５〜６個以内推奨 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- モバイルに最適化したサイトは、次のような記述を含んでいるのが典型的です -->
+		<link rel="shortcut icon" href="images/favicon_Life-is-Luck!_24px.png"> <!-- faviconの設定 -->
+		<link rel="stylesheet" href="About.css">
+		<title> ショクメシ | 今日行きたい”お店”を探そう</title> <!-- タグ部分で表示されます -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		 <!-- 文字の装飾 -->
+		<link rel="stylesheet" href="textillate-master/assets/animate.css">
+		<script src="textillate-master/assets/jquery.lettering.js"></script>
+		<script src="textillate-master/jquery.textillate.js"></script>
+		<link rel="stylesheet" href="SublimeSlideshow/css/sublimeSlideshow.css">
+		<script type="text/javascript" src="SublimeSlideshow/js/jquery.sublimeSlideshow.js"></script>
+	</head>
+	<body class="mybg">
+		<header>
+			<nav>
+				<ul>
+					<li>
+						<h1><a href="Top.html" class="syokumeshi"> ショクメシ </a></h1>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h1 class="ef"> 今日行きたい“お店”を探せるサイト </h1>
+		</main>
+		<footer>
+			<p> photo : Kento Ichikawa <br> &copy; ショクメシ </p>
+		</footer>
+		<script type="text/javascript">
+		$('.ef').textillate({
+		// ループのオンオフ、falseの場合、outは発動しない
+		loop: false,
+		// テキストが置き換えられるまでの表示時間
+		minDisplayTime: 2000,
+		// 遅延時間
+		initialDelay: 0,
+		// アニメーションが自動的にスタートするかどうか
+		autoStart: true,
+		// フェードインのエフェクトの詳細設定
+		in: {
+		// エフェクトの名前（animate.cssをご参照下さい
+		effect: 'bounceInDown',
+		// 遅延時間の指数
+		delayScale: 3,
+		// 文字ごとの遅延時間
+		delay: 60,
+		// trueにすることでアニメーションをすべての文字に同時に適用される
+		sync: true,
+		// trueにすることで文字を順番にではなく、ランダムに入ってくるようにする
+		// (注：syncがtrueの場合は無効になる)
+		shuffle: false,
+		},
+		// フェードアウトのエフェクトの詳細設定(同上)
+		out: {
+			effect: 'fadeOut',
+			delayScale: 1.5,
+			delay: 50,
+			sync: false,
+			shuffle: false,
+		}
+		});
+		</script>
+		<script type="text/javascript">
+		$.sublime_slideshow({
+			src:[
+			{url:"images/bg_1.png",title:"合コン"},
+			{url:"images/bg_2.png",title:"ランチ"},
+			{url:"images/bg_3.png",title:"同窓会"}
+			],
+			duration:   7,
+			fade:       1,
+			scaling:    1.2,
+			rotating:   2,
+			overlay:    "SublimeSlideshow/images/pattern.png"
+		});
+		</script>
+	</body>
+</html>

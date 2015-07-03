@@ -1,0 +1,84 @@
+﻿/* 文字コードを"utf-8"にして保存 */
+@charset "utf-8";
+/* すべての要素に適用する */
+*{
+	color: #FAC800; /* 文字を黄色に設定 */
+	margin: 0px; /* マージン（領域）の幅 */
+	padding: 0px; /* パディング（余白）の幅 */
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'MS　Pゴシック',sans-serif;
+}
+/* bodyタグの説明 */
+body{
+	width: 100%; /* 幅 */
+	height: 100%; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+}
+/* bodyタグのクラスmybg説明 */
+.mybg{
+	background-repeat: no-repeat; /* 背景画像の繰り返しなし */
+	background-attachment: fixed; /* 背景画像をブラウザ画面に固定 */
+	background-size: cover; /* 背景画像がブラウザ画面を覆うように表示 */
+}
+/* headerタグの説明 */
+header{
+	line-height: 61px; /* 行の高さ（61px） */
+	width: 100%; /* 幅 */
+	height: 61px; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+	text-align: left; /* テキストの表示位置（左揃え） */
+}
+/* navタグの説明 */
+nav{
+	line-height: 39px; /* 行の高さ（39px） */
+	width: 100%; /* 幅 */
+	height: 39px; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+	text-align: left; /* テキストの表示位置（左揃え） */
+}
+/* navのaタグの説明 */
+nav a{
+	text-decoration: none;/* リンクの下線を取る */
+	border: none;
+	background: transparent;
+	border-radius: 0px;/* 枠線を角丸にする */
+	display: inline-block;
+	padding: 10px;
+	transition: 0.5s;
+}
+/* navのh1タグの説明 */
+nav h1{
+	font-size: 34px; /* 縦のピクセル（34px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+}
+/* mainタグの説明 */
+main{
+	width: 100%; /* 幅 */
+	height: 630px; /* 高さ */
+	text-align: center ; /* テキストの表示位置（中央揃え） */
+}
+/* mainのh1タグの説明 */
+main h1{
+	font-size: 55px; /* 縦のピクセル（55px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+	padding-top: 377px; /* 上の余白（377px）の幅 */
+	padding-bottom: 0px; /* 下の余白（0px）の幅 */
+}
+
+/* footerタグの説明 */
+footer{
+	width: 100%; /* 幅 */
+	height: 100%; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+	text-align: center; /* テキストの表示位置（中央揃え） */
+}
+/* footerタグのpの説明 */
+footer p{
+	font-size: 21px; /* 縦のピクセル（21px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+	padding-top: 34px; /* 上の余白（34px）の幅 */
+	padding-bottom: 0px; /* 下の余白（0px）の幅 */
+}

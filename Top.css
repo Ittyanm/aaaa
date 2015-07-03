@@ -1,0 +1,65 @@
+﻿/* 文字コードを"utf-8"にして保存 */
+@charset "utf-8";
+/* すべての要素に適用する */
+*{
+	color: #FA4B00; /* 文字をオレンジ色に設定 */
+	margin: 0px; /* マージン（領域）の幅 */
+	padding: 0px; /* パディング（余白）の幅 */
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'MS　Pゴシック',sans-serif;
+}
+/* div id="mobile"タグの説明 */
+#mobile {
+    display: none;
+    line-height: 61px; /* 行の高さ（61px） */
+	width: 100%; /* 幅 */
+	height: 61px; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+	text-align: left; /* テキストの表示位置（左揃え） */
+}
+@media screen and (max-width: 1500px) {
+	#mobile {
+		display: inline-block;
+	}
+	.head-nav{
+		display:none;
+		}
+}
+/* div id="mobile"のa id="sidr-menu-button"タグの説明 */
+#sidr-menu-button{
+	text-decoration: none;/* リンクの下線を取る */
+	font-size: 34px; /* 縦のピクセル（34px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+}
+/* bodyタグの説明 */
+body{
+	background-color: #0F0400; /* 背景色を黒色に設定 */
+	width: 100%; /* 幅 */
+	height: 100%; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+}
+/* mainタグの説明 */
+main{
+	width: 100%; /* 幅 */
+	height: 720px; /* 高さ */
+	background-image: url("images/Map.png"); /* 背景画像の指定 */
+	background-repeat: no-repeat; /* 繰り返しの向き */
+	background-attachment: fixed; /* ブラウザ画面に固定 */
+	background-position: center center; /* 画像の表示位置 */
+}
+/* footerタグの説明 */
+footer{
+	width: 100%; /* 幅 */
+	height: 100%; /* 高さ */
+	margin: 0px;
+	padding: 0px;
+	text-align: center; /* テキストの表示位置（中央揃え） */
+}
+/* footerタグのpの説明 */
+footer p{
+	font-size: 21px; /* 縦のピクセル（21px）の大きさ */
+	font-weight: bold; /* 文字の太さ（太字） */
+	padding-top: 34px; /* 上の余白（34px）の幅 */
+	padding-bottom: 0px; /* 下の余白（0px）の幅 */
+}
